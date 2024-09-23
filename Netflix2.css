@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(139, 137, 137);
+    font-family: "Bree Serif", serif;
+    
+}
+#container{
+    background-color: rgba(black, 0.5);
+    position: relative;
+    z-index: 1;
+    border-bottom: 10px solid grey;
+}
+
+#cont1{
+    background-image: url(IMAGE/banner\(1\).jpg);
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+nav{
+    
+    display: flex;
+    /* width: 100%; */
+    /* height: fit-content; */
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-around   ;
+}
+#logo > img{
+    height: 100px;
+    
+}
+#nav{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+#lang{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+#nav button{
+    padding: 7px 14px;
+    border-radius: 3px;
+    font: 1.1rem;
+    border: none;
+    background-color: rgb(226, 31, 31);
+    color: white;
+    font-weight: bold;
+}
+#nav button:hover{
+    background-color: rgb(170, 23, 23);
+    
+}
+.mid{
+    padding: 120px 0;
+    color: white;
+    /* background-color: red; */
+ }
+ 
+ .mid h2{
+    font-size: 2.9rem;
+    text-align: center;
+
+ }
+ .mid p{
+    font-size: 1.7rem;
+    text-align: center;
+ }
+#mail{
+    text-align: center;
+    color: white;
+}
+#mail > input{
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(168, 159, 159);
+    min-width: 230px;
+    font-size: 1rem;
+    background-color: transparent;
+   
+    
+    
+}
+#mail > button{
+    padding: 11px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 31, 31) ;
+}
+#mail button:hover{
+    background-color: brown;
+}
+#enjoy{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    /* margin: auto; */
+    /* margin: 0; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* background-color: greenyellow; */
+   /* position: absolute; */
+   border-bottom: 10px solid grey;  
+  
+   
+}
+/* ------------------------------------------------------------------------------------------------ */
+#cont2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* justify-content: space-between; */
+}
+
+#text{
+    /* background-color: red; */
+    width: 50%;
+    color: white; 
+    /* position: relative;   */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    /* text-align: start; */
+    padding-top: 7rem;
+
+}
+#text>h2{
+    font-size: 4rem;
+    /* background-color: aqua; */
+    margin-bottom: 0;
+    margin-top: 2rem;   
+}
+#text>p{
+    font-size: 2rem;
+    /* background-color: chocolate; */
+}
+#media{
+    /* background-color: blue; */
+    width: 50%;
+}
+#media>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /* z-index is use to which given more importance */
+    /* which img or video or content given more z-index number that will be show first */
+
+}
+
+#media>video{
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 74%;
+    z-index: 1;
+}
+#media{
+    position: relative;
+}
+#child{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   border-bottom: 10px solid grey;  
+  
+}
+#cont3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#text1{
+    width: 50%;
+    color: white; 
+    /* display: flex; */
+    align-items:center;
+    /* flex-direction: column; */
+    padding: 3rem;
+    padding-top: 3rem;
+    font-size: 0;
+    
+
+}
+
+#text1>h2{
+    font-size: 4rem;
+    /* background-color: aqua; */
+    margin-bottom: 0;
+    margin-top: 2rem;   
+   
+   
+    
+}
+#text1>p{
+    font-size: 2rem;
+    /* background-color: chocolate; */
+}
+#img1{
+    width: 100%;
+}
+#img2{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+#cont3>#img2{
+    width: 100%;
+    position: relative;
+}
+#tv{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3rem;
+   border-bottom: 7px solid grey;  
+  
+}
+#cont4{
+    width: 100%;
+    display: flex;
+    
+
+  
+}
+
+#text2{
+    width: 50%;
+    color: white; 
+    /* position: relative;   */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    /* text-align: start; */
+    padding-top: 7rem;
+}
+#text2>h2{
+    font-size: 4rem;
+    /* background-color: aqua; */
+    margin-bottom: 0;
+    margin-top: 2rem;   
+}
+#text2>p{
+    font-size: 2rem;
+    /* background-color: chocolate; */
+}#media1>img{
+    width: 90%;
+    position: relative;
+    z-index: 2;
+    /* z-index is use to which given more importance */
+    /* which img or video or content given more z-index number that will be show first */
+
+}
+
+#media1>video{
+    position: absolute;
+    top: 9.5%;
+    left: 17%;
+    width: 55%;
+    z-index: 1;
+}
+#media1{
+    position: relative;
+    width: 50%;
+    margin: 2rem;
+}
+
+
+#cont5{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    /* margin: auto; */
+    /* margin: 0; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* background-color: greenyellow; */
+   /* position: absolute; */
+   border-bottom: 2px solid grey;  
+  
+   
+}
+#text3{
+    /* background-color: red; */
+    width: 50%;
+    color: white; 
+    /* position: relative;   */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    /* text-align: start; */
+    padding-top: 7rem;
+
+}
+#text3>h2{
+    font-size: 4rem;
+    /* background-color: aqua; */
+    margin-bottom: 0;
+    margin-top: 0rem;   
+}
+#text3>p{
+    font-size: 2rem;
+    /* background-color: chocolate; */
+   
+    
+}
+#cont6{
+    background-color: black;
+    color: white;
+    border-bottom: 7px solid grey;  
+    
+    
+   
+}
+/* #text4>h4>button{
+     
+} */
+#text4>h2{
+   text-align: center;
+   font-size: 4rem;
+   padding-top: 4rem;
+   display: flex;
+  
+
+}
+#text4>h4{
+    padding-left: 10rem;
+    font-size: 2rem;
+    background-color: rgb(116, 114, 114)
+    
+}
+#text4>p{
+    text-align: center;
+    font-size: 1.5rem;
+
+    
+}
+#text4>button{
+    display: flex;
+}
+
+#mail1{
+    text-align: center;
+}
+#mail1 > input{
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(168, 159, 159);
+    min-width: 230px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+#mail1 > button{
+    padding: 11px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 31, 31) ;
+}
+#mail1 button:hover{
+    background-color: brown;
+}
+footer{
+   background-color: black;
+   color: white;
+   display: flex;
+   /* justify-content: space-between; */
+   padding: 40px 20px;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+   
+
+}
+#inq{
+    display: flex;
+    width: 55%;
+    padding-left: 10%;
+    justify-content: right;
+
+   
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
